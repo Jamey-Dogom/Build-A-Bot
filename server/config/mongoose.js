@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 
 
-mongoose.connect('mongodb://localhost/llassesment-db', {
+mongoose.connect('mongodb://localhost/buildAbot', {
     useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true
 });
 
