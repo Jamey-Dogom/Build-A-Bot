@@ -1,0 +1,21 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "parserOptions": {
+      "ecmaVersion": 6
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "globals": {},
+  "rules": {
+    "semi": [2, "always"],
+    "no-eq-null": 2,
+    "no-console": 0,
+    "no-multi-spaces": 0,
+    "max-len": [2, 120, 4, {
+      "ignoreRegExpLiterals": true,
+      "ignoreUrls": true
+    }]
+  }
+}
